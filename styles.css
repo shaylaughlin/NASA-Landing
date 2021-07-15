@@ -1,5 +1,53 @@
 body {
   background-color: pink;
-  height: 100%
+    
+}
+
+img {
+  height: 450px;
+  width: 850px;
+}
+
+h1 {
+  font-family: 'Arimo', sans-serif;
+  font-size: 80px;
+}
+
+
+.container-1 { 
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  padding: 20px;
+  display: block;
   
+  
+}
+
+.container-2 {
+  display: flex;
+  justify-content: center;
+  background-color: #c088d1;
+  height: 324px;
+  width: 850px;
+  flex-direction: row;
+ 
+  
+}
+
+.box-1 {
+  margin-right: 20px;
+  width: 270px;
+  
+}
+
+.box-2 {
+  margin-right: 20px;
+  width: 270px;
+
+}
+
+.box-3 {
+    width: 270px;
+
 }

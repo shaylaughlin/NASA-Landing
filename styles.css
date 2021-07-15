@@ -67,3 +67,23 @@ p {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+input[type=text] {
+  padding:5px; 
+  border:2px solid #edc8fa;
+  border-radius: 5px;
+}
+
+input[type=submit] {
+  padding:5px 15px; 
+  background: #e2a9f5; 
+  cursor:pointer;
+  border-radius: 5px;
+  font-family: 'Arimo', sans-serif;
+}
+
+textarea {
+  padding:5px; 
+  border:2px solid #edc8fa; 
+  border-radius: 5px;
+}

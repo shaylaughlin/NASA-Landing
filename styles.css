@@ -29,8 +29,8 @@ p {
 .container-1 {
   display: flex;
   justify-content:center;
-  padding: 20px;
-  display: block;
+  /* padding: 20px; */
+  /* display: block; */
   position: relative;
   text-align: center;
   color: #c6c5c7;
@@ -43,6 +43,7 @@ p {
   display: flex;
   justify-content: center;
   background-color: #b2a6e0;
+  margin-top: 20px;
   margin-left: 600px;
   margin-right: 600px;
   height: 324px;
@@ -96,4 +97,53 @@ textarea {
   /* padding:5px; */
   border:2px solid #edc8fa;
   border-radius: 5px;
+}
+
+/* start of image overlay  */
+.container-1 {
+  position: relative;
+  width: 850px;
+  height: 450px;
+}
+
+.image {
+  display: block;
+  width: 850px;
+  height: 450px;
+}
+  
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0%;
+  background-color: #a378bf;
+  overflow: hidden;
+  width: 850px;
+  height: 450px;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .8s ease;
+  transition: .8s ease;
+}
+
+.container-1 :hover .overlay {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
